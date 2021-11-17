@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We declare a variable called secret without initializing.
+// We declare a variable called code and set it to the number 123.
+// A conditional if statement checks to see if code is equal to 123 without type conversion.  It is, so secret is set to the string 'super', and code is multiplied by 2 and set to its new value of 246.
+// A second conditional if statement checks to see if code is greater than 250. It is not, so the code within this second if statement is not executed.  We then console log the value of secret which is 'super'.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We declare a variable called isStudent and set it to the boolean value of true.  We declare a variable called age and set it to the number 34.
+// We declare a variable called zip and set it to the number 55407.
+// Next, an if/else chain is executed.  First, we check to see if both isStudent is true and zip > 80000.  It is not, so we then check if isStudent is false or age < 30.
+// Neither of these cases are true, so lastly we check to see if isStudent is true.  It is, so we console log "Welcome to Prime!", and the code has finished executing.  The last else block is not executed.
 
 //CODE
 /*
