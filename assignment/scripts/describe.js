@@ -130,10 +130,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne and colorTwo are reversed in the code.  colorOne should be set to 'blue' and colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+//Only colorOne was set to 'purple' in the code.  colorTwo should be set to 'purple' in the if block of code between the curly braces as well.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +147,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//The condition says if temp is greater than 39 OR (||) time is greater than or equal to 4.  It should say AND (&&) instead of OR (||) in the code.  Then the console log will execute as specified in the description.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +160,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//In the code, the  if statement condition is fine and can remain the same.  However,  if the condition as stated is true, we should console log "enter", and if it is not true the else block should execute with a console log of "no entry".
 if(minAge <= age) {
   console.log('no entry');
 } else {
